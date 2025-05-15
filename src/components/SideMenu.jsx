@@ -30,7 +30,7 @@ function SideMenu() {
       <List sx={{ mt: 8 }}>
         {icons.map((icon, index) => (
           <ListItem key={index} disablePadding>
-            <ListItemButton>
+            <ListItemButton sx={{ justifyContent: "center" }}>
               <ListItemIcon sx={{ justifyContent: "center" }}>
                 {icon}
               </ListItemIcon>

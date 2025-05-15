@@ -1,5 +1,11 @@
+import { Box } from "@mui/material";
+
 function Dashboard() {
-  return <h1>Dashboard</h1>;
+  return (
+    <Box>
+      <p>1234</p>
+    </Box>
+  );
 }
 
 export default Dashboard;

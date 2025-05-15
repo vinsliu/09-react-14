@@ -1,20 +1,20 @@
-import {
-  AppBar,
-  Box,
-  Button,
-  IconButton,
-  Toolbar,
-  Typography,
-} from "@mui/material";
+import { AppBar, Box, IconButton, Toolbar, Typography } from "@mui/material";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import { purple } from "@mui/material/colors";
 
 function Header() {
-  const appBarBG = purple[800];
+  const bgAppBar = purple[800];
   return (
-    <Box>
-      <AppBar sx={{ backgroundColor: appBarBG }}>
-        <Toolbar>
+    <Box sx={{ pb: 2 }}>
+      <AppBar
+        position="fixed"
+        sx={{
+          backgroundColor: bgAppBar,
+          width: `calc(100% - 80px)`,
+          ml: "80px",
+        }}
+      >
+        <Toolbar variant="dense">
           <Typography sx={{ flexGrow: 1 }}>Tableau de bord</Typography>
           <IconButton color="inherit">
             <AccountCircleIcon />

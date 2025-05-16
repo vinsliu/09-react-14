@@ -3,6 +3,7 @@ import InfoCard from "../components/InfoCard";
 import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
 import PeopleIcon from "@mui/icons-material/People";
 import MessageIcon from "@mui/icons-material/Message";
+import Chart from "../components/Chart";
 
 function Dashboard() {
   return (
@@ -30,6 +31,7 @@ function Dashboard() {
           />
         </Grid>
       </Grid>
+      <Chart />
     </Box>
   );
 }

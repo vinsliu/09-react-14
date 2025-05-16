@@ -23,6 +23,11 @@ function Layout() {
             p: 3,
             pt: "56px",
             overflow: "auto",
+            [`& .MuiBox-root.css-0:first-of-type`]: {
+              display: "flex",
+              flexDirection: "column",
+              gap: 4,
+            },
           }}
         >
           <Outlet />

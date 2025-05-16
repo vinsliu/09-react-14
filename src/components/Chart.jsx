@@ -3,8 +3,8 @@ import { LineChart } from "@mui/x-charts";
 
 function Chart() {
   return (
-    <>
-      <Typography variant="h6" fontWeight={"bold"}>
+    <div>
+      <Typography variant="h6" fontWeight={"bold"} sx={{ mb: 2 }}>
         Graphique (avec @mui/x-charts)
       </Typography>
       <LineChart
@@ -20,7 +20,7 @@ function Chart() {
         width={500}
         sx={{ alignItems: "start" }}
       />
-    </>
+    </div>
   );
 }
 export default Chart;
